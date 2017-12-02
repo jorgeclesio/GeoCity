@@ -3,7 +3,6 @@
 	$con = mysqli_connect ("localhost","root","",'municipios') or die ("Err SERVER");
 	//$mysqli->set_charset('utf8');
 	date_default_timezone_set('America/Belem');
-
 	$x = array("ã","ç","Ç","á","ó","'","´"); 
 	$y = array("a","c","C","a","o","","");
 	$amazonialegal=""	
